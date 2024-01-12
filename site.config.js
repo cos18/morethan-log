@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "Sungwoo Devlog",
-    description: "Sungwoo's Developer log",
+    description: "꿈꾸는 개발자의 개발 블로그",
   },
 
   // CONFIG configration (required)
@@ -35,7 +35,7 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
